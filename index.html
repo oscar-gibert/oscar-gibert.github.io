@@ -3,11 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio | Étudiant Master 2 IA & Santé Mentale</title>
+    <title>Oscar Gibert | Portfolio M2 IA & Informatique Affective</title>
     <!-- Tailwind CSS pour le style moderne et responsive -->
     <script src="https://cdn.tailwindcss.com"></script>
     <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
     <!-- FontAwesome pour les icônes -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <script>
@@ -23,6 +23,7 @@
                             100: '#ccfbf1',
                             500: '#14b8a6',
                             600: '#0d9488',
+                            700: '#0f766e',
                             900: '#134e4a',
                         }
                     }
@@ -50,10 +51,11 @@
                     <i class="fa-solid fa-brain text-brand-600 text-2xl"></i>
                     <span class="font-bold text-xl tracking-tight text-slate-800">Oscar Gibert</span>
                 </div>
-                <div class="hidden md:flex space-x-8">
-                    <a href="#about" class="text-slate-600 hover:text-brand-600 transition-colors">À Propos</a>
+                <div class="hidden md:flex space-x-8 text-sm font-medium">
+                    <a href="#about" class="text-slate-600 hover:text-brand-600 transition-colors">Ma Vision</a>
                     <a href="#skills" class="text-slate-600 hover:text-brand-600 transition-colors">Compétences</a>
                     <a href="#projects" class="text-slate-600 hover:text-brand-600 transition-colors">Projets</a>
+                    <a href="#experience" class="text-slate-600 hover:text-brand-600 transition-colors">Parcours</a>
                 </div>
             </div>
         </div>
@@ -63,19 +65,25 @@
     <header class="pt-32 pb-20 bg-gradient-to-br from-brand-50 via-white to-slate-100">
         <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row items-center gap-12">
             <div class="md:w-2/3">
-                <span class="text-brand-600 font-semibold tracking-wider uppercase text-sm">Portfolio Étudiant</span>
-                <h1 class="mt-2 text-4xl md:text-5xl font-extrabold text-slate-900 leading-tight">
+                <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-brand-100 text-brand-700 font-semibold text-xs uppercase tracking-wider mb-4">
+                    <span class="w-2 h-2 rounded-full bg-brand-600 animate-ping"></span>
+                    Recherche Stage M2 (6 mois - Dès Fév. 2027)
+                </div>
+                <h1 class="text-4xl md:text-5xl font-extrabold text-slate-900 leading-tight">
                     Master 2 Intelligence Artificielle
                 </h1>
                 <h2 class="mt-4 text-2xl text-slate-600 font-light">
-                    Passionné par le NLP, l'Informatique Affective & l'IA Empathique.
+                    NLP, Systèmes Multi-Agents & Informatique Affective
                 </h2>
-                <p class="mt-6 text-lg text-slate-500 leading-relaxed max-w-2xl">
-                    À la croisée des sciences cognitives et du Machine Learning, je conçois des systèmes d'intelligence artificielle éthiques capables de comprendre, soutenir et orienter l'humain.
+                <p class="mt-6 text-lg text-slate-600 leading-relaxed max-w-2xl">
+                    Étudiant à l'Université Claude Bernard Lyon 1, je conçois des systèmes d'intelligence artificielle éthiques et interactifs. Je m'intéresse particulièrement à la <strong>médiation par l'art et la culture</strong> comme levier de décentrement cognitif et de soutien émotionnel.
                 </p>
-                <div class="mt-8 flex gap-4">
+                <div class="mt-8 flex flex-wrap gap-4">
                     <a href="#projects" class="bg-brand-600 text-white px-6 py-3 rounded-lg font-medium hover:bg-brand-500 transition-all shadow-md hover:shadow-lg">
-                        Voir mes travaux
+                        Découvrir mes projets
+                    </a>
+                    <a href="https://github.com/oscar-gibert" target="_blank" class="bg-white text-slate-700 border border-slate-200 px-6 py-3 rounded-lg font-medium hover:bg-slate-50 transition-all shadow-sm">
+                        <i class="fa-brands fa-github text-slate-800 mr-2"></i> GitHub
                     </a>
                     <a href="https://www.linkedin.com/in/oscar-gibert" target="_blank" class="bg-white text-slate-700 border border-slate-200 px-6 py-3 rounded-lg font-medium hover:bg-slate-50 transition-all shadow-sm">
                         <i class="fa-brands fa-linkedin text-brand-600 mr-2"></i> LinkedIn
@@ -83,9 +91,8 @@
                 </div>
             </div>
             <div class="md:w-1/3 flex justify-center">
-                <!-- Abstract Representation of AI and Mental Health -->
                 <div class="relative w-64 h-64 rounded-full bg-gradient-to-tr from-brand-100 to-brand-500 flex items-center justify-center shadow-2xl opacity-90">
-                    <i class="fa-solid fa-heart-pulse text-white text-7xl opacity-80 animate-pulse"></i>
+                    <i class="fa-solid fa-palette text-white text-7xl opacity-85 animate-pulse"></i>
                 </div>
             </div>
         </div>
@@ -100,34 +107,34 @@
             </div>
             <div class="grid md:grid-cols-2 gap-12 items-center">
                 <div>
-                    <h3 class="text-2xl font-semibold text-slate-800 mb-4">L'Humain au centre de l'algorithme</h3>
+                    <h3 class="text-2xl font-semibold text-slate-800 mb-4">L'IA comme médiatrice et catalyseur de résonance</h3>
                     <p class="text-slate-600 mb-4 leading-relaxed">
-                        L'intelligence artificielle ne se limite pas à la prédiction de données abstraites. Je suis convaincu que le prochain grand défi technologique réside dans le <strong>soutien psychologique et l'interaction empathique</strong>. 
+                        L'intelligence artificielle ne se limite pas à l'optimisation de processus industriels. À la croisée des <strong>sciences cognitives, du NLP et des arts</strong>, je suis convaincu que la technologie peut offrir un espace de réflexion bienveillant et sécurisé.
                     </p>
                     <p class="text-slate-600 leading-relaxed">
-                        Actuellement en Master 2 IA, je me spécialise dans le Traitement du Langage Naturel (NLP) pour concevoir des compagnons virtuels sécurisés, capables de détecter la détresse, d'offrir un réconfort instantané et d'orienter vers les bons spécialistes tout en respectant des garde-fous éthiques stricts.
+                        Plutôt que de chercher à remplacer l'humain ou à jouer le rôle d'un pseudo-psychologue, une architecture multi-agents bien pensée peut accompagner l'utilisateur, reformuler son vécu et lui proposer des œuvres culturelles (visuelles, musicales, littéraires) capables de susciter une résonance émotionnelle et un véritable décentrement.
                     </p>
                 </div>
                 <div class="grid grid-cols-2 gap-4">
                     <div class="bg-slate-50 p-6 rounded-xl border border-slate-100 text-center">
-                        <i class="fa-solid fa-hands-holding-child text-3xl text-brand-500 mb-3"></i>
-                        <h4 class="font-semibold text-slate-800">Empathie</h4>
-                        <p class="text-sm text-slate-500 mt-2">IA conversationnelle bienveillante</p>
+                        <i class="fa-solid fa-comments text-3xl text-brand-500 mb-3"></i>
+                        <h4 class="font-semibold text-slate-800">Médiation & Écoute</h4>
+                        <p class="text-sm text-slate-500 mt-2">Agents conversationnels socratiques et reformulation</p>
+                    </div>
+                    <div class="bg-slate-50 p-6 rounded-xl border border-slate-100 text-center">
+                        <i class="fa-solid fa-masks-theater text-3xl text-brand-500 mb-3"></i>
+                        <h4 class="font-semibold text-slate-800">Art & Résonance</h4>
+                        <p class="text-sm text-slate-500 mt-2">Décentrement cognitif par la recommandation d'œuvres</p>
+                    </div>
+                    <div class="bg-slate-50 p-6 rounded-xl border border-slate-100 text-center">
+                        <i class="fa-solid fa-diagram-project text-3xl text-brand-500 mb-3"></i>
+                        <h4 class="font-semibold text-slate-800">Multi-Agents & LLM</h4>
+                        <p class="text-sm text-slate-500 mt-2">Orchestration d'agents intelligents et architectures RAG</p>
                     </div>
                     <div class="bg-slate-50 p-6 rounded-xl border border-slate-100 text-center">
                         <i class="fa-solid fa-shield-halved text-3xl text-brand-500 mb-3"></i>
-                        <h4 class="font-semibold text-slate-800">Éthique</h4>
-                        <p class="text-sm text-slate-500 mt-2">Garde-fous et gestion des risques</p>
-                    </div>
-                    <div class="bg-slate-50 p-6 rounded-xl border border-slate-100 text-center">
-                        <i class="fa-solid fa-language text-3xl text-brand-500 mb-3"></i>
-                        <h4 class="font-semibold text-slate-800">NLP / LLM</h4>
-                        <p class="text-sm text-slate-500 mt-2">Compréhension du langage</p>
-                    </div>
-                    <div class="bg-slate-50 p-6 rounded-xl border border-slate-100 text-center">
-                        <i class="fa-solid fa-stethoscope text-3xl text-brand-500 mb-3"></i>
-                        <h4 class="font-semibold text-slate-800">Santé Mentale</h4>
-                        <p class="text-sm text-slate-500 mt-2">Triage et orientation</p>
+                        <h4 class="font-semibold text-slate-800">Éthique & Pédagogie</h4>
+                        <p class="text-sm text-slate-500 mt-2">Garde-fous, explicabilité et vulgarisation scientifique</p>
                     </div>
                 </div>
             </div>
@@ -137,18 +144,25 @@
     <!-- Skills Section -->
     <section id="skills" class="py-20 bg-slate-50">
         <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-            <h2 class="text-3xl font-bold text-slate-900">Expertise Technique</h2>
+            <h2 class="text-3xl font-bold text-slate-900">Compétences & Enseignements M2</h2>
             <div class="h-1 w-20 bg-brand-500 mx-auto mt-4 mb-10 rounded-full"></div>
             
-            <div class="flex flex-wrap justify-center gap-4 max-w-4xl mx-auto">
-                <span class="px-5 py-2 bg-white text-slate-700 rounded-full shadow-sm border border-slate-200 font-medium hover:border-brand-500 hover:text-brand-600 transition-colors cursor-default"><i class="fa-brands fa-python mr-2"></i>Python</span>
-                <span class="px-5 py-2 bg-white text-slate-700 rounded-full shadow-sm border border-slate-200 font-medium hover:border-brand-500 hover:text-brand-600 transition-colors cursor-default">Traitement du Langage (NLP)</span>
-                <span class="px-5 py-2 bg-white text-slate-700 rounded-full shadow-sm border border-slate-200 font-medium hover:border-brand-500 hover:text-brand-600 transition-colors cursor-default">Large Language Models (LLMs)</span>
-                <span class="px-5 py-2 bg-white text-slate-700 rounded-full shadow-sm border border-slate-200 font-medium hover:border-brand-500 hover:text-brand-600 transition-colors cursor-default">Architecture RAG</span>
-                <span class="px-5 py-2 bg-white text-slate-700 rounded-full shadow-sm border border-slate-200 font-medium hover:border-brand-500 hover:text-brand-600 transition-colors cursor-default">Machine Learning</span>
-                <span class="px-5 py-2 bg-white text-slate-700 rounded-full shadow-sm border border-slate-200 font-medium hover:border-brand-500 hover:text-brand-600 transition-colors cursor-default">PyTorch / TensorFlow</span>
-                <span class="px-5 py-2 bg-brand-50 text-brand-700 rounded-full shadow-sm border border-brand-200 font-medium cursor-default">Éthique de l'IA & Biais</span>
-                <span class="px-5 py-2 bg-brand-50 text-brand-700 rounded-full shadow-sm border border-brand-200 font-medium cursor-default">Affective Computing</span>
+            <div class="flex flex-wrap justify-center gap-3 max-w-4xl mx-auto">
+                <!-- IA & NLP -->
+                <span class="px-5 py-2.5 bg-brand-600 text-white rounded-full shadow-sm font-medium cursor-default"><i class="fa-solid fa-robot mr-2"></i>Systèmes Multi-Agents</span>
+                <span class="px-5 py-2.5 bg-brand-600 text-white rounded-full shadow-sm font-medium cursor-default"><i class="fa-solid fa-language mr-2"></i>Traitement du Langage (NLP & LLM)</span>
+                <span class="px-5 py-2.5 bg-brand-600 text-white rounded-full shadow-sm font-medium cursor-default"><i class="fa-solid fa-brain mr-2"></i>IA & Cognition</span>
+                <span class="px-5 py-2.5 bg-brand-50 text-brand-700 rounded-full shadow-sm border border-brand-200 font-medium cursor-default">Architecture RAG</span>
+                <span class="px-5 py-2.5 bg-brand-50 text-brand-700 rounded-full shadow-sm border border-brand-200 font-medium cursor-default">Informatique Affective</span>
+                <span class="px-5 py-2.5 bg-brand-50 text-brand-700 rounded-full shadow-sm border border-brand-200 font-medium cursor-default">Machine Learning & Deep Learning</span>
+                
+                <!-- Langages & Outils -->
+                <span class="px-5 py-2.5 bg-white text-slate-700 rounded-full shadow-sm border border-slate-200 font-medium hover:border-brand-500 transition-colors cursor-default"><i class="fa-brands fa-python mr-2 text-brand-600"></i>Python</span>
+                <span class="px-5 py-2.5 bg-white text-slate-700 rounded-full shadow-sm border border-slate-200 font-medium hover:border-brand-500 transition-colors cursor-default"><i class="fa-solid fa-code mr-2 text-brand-600"></i>C# / C++</span>
+                <span class="px-5 py-2.5 bg-white text-slate-700 rounded-full shadow-sm border border-slate-200 font-medium hover:border-brand-500 transition-colors cursor-default"><i class="fa-solid fa-database mr-2 text-brand-600"></i>SQL & Web</span>
+                <span class="px-5 py-2.5 bg-white text-slate-700 rounded-full shadow-sm border border-slate-200 font-medium hover:border-brand-500 transition-colors cursor-default"><i class="fa-brands fa-unity mr-2 text-brand-600"></i>Unity 3D</span>
+                <span class="px-5 py-2.5 bg-white text-slate-700 rounded-full shadow-sm border border-slate-200 font-medium hover:border-brand-500 transition-colors cursor-default"><i class="fa-brands fa-git-alt mr-2 text-brand-600"></i>Git & Agile</span>
+                <span class="px-5 py-2.5 bg-white text-slate-700 rounded-full shadow-sm border border-slate-200 font-medium hover:border-brand-500 transition-colors cursor-default"><i class="fa-solid fa-pen-nib mr-2 text-brand-600"></i>Krita / GIMP</span>
             </div>
         </div>
     </section>
@@ -161,28 +175,147 @@
                 <div class="h-1 w-20 bg-brand-500 mx-auto mt-4 rounded-full"></div>
             </div>
 
-            <div class="bg-slate-50 rounded-2xl p-8 border border-slate-100 shadow-sm hover:shadow-md transition-shadow max-w-4xl mx-auto">
-                <div class="flex items-center gap-3 mb-4">
-                    <i class="fa-solid fa-car-side text-brand-600 text-2xl"></i>
-                    <h3 class="text-2xl font-semibold text-slate-800">Système de Décision & Simulation 3D (Véhicule Autonome)</h3>
-                </div>
-                
-                <div class="mb-6 flex flex-wrap gap-2">
-                    <span class="inline-flex items-center bg-white text-slate-600 px-3 py-1 rounded-md text-sm font-medium border border-slate-200 shadow-sm"><i class="fa-solid fa-code mr-2"></i> C#</span>
-                    <span class="inline-flex items-center bg-white text-slate-600 px-3 py-1 rounded-md text-sm font-medium border border-slate-200 shadow-sm"><i class="fa-solid fa-cube mr-2"></i> Unity 3D</span>
+            <!-- Projet Phare (Véhicule Autonome + Vidéos) -->
+            <div class="bg-slate-50 rounded-2xl p-8 border border-slate-200 shadow-sm hover:shadow-md transition-shadow mb-8">
+                <div class="flex flex-col md:flex-row md:items-center justify-between gap-4 mb-4">
+                    <div class="flex items-center gap-3">
+                        <div class="p-3 bg-brand-100 text-brand-600 rounded-xl">
+                            <i class="fa-solid fa-car-side text-2xl"></i>
+                        </div>
+                        <div>
+                            <span class="text-xs font-bold uppercase tracking-wider text-brand-600">Projet Master 1 • Simulation & Vulgarisation</span>
+                            <h3 class="text-2xl font-bold text-slate-800">Système de Décision & Simulation 3D (Véhicules Autonomes)</h3>
+                        </div>
+                    </div>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="bg-white text-slate-700 px-3 py-1 rounded-md text-xs font-semibold border border-slate-200 shadow-sm">C#</span>
+                        <span class="bg-white text-slate-700 px-3 py-1 rounded-md text-xs font-semibold border border-slate-200 shadow-sm">Unity 3D</span>
+                        <span class="bg-white text-slate-700 px-3 py-1 rounded-md text-xs font-semibold border border-slate-200 shadow-sm">Algorithmes Décisionnels</span>
+                    </div>
                 </div>
 
-                <p class="text-slate-600 leading-relaxed mb-8">
-                    Développement d'algorithmes décisionnels et conception d'une simulation en environnement 3D pour véhicules intelligents. Pour accompagner ce projet, j'ai documenté mon travail sous deux angles : une démonstration technique de la simulation, et une vidéo de vulgarisation expliquant la logique complexe du système à un public non expert. Ce double exercice m'a permis d'allier rigueur de développement et pédagogie.
+                <p class="text-slate-600 leading-relaxed mb-6">
+                    Développement d'algorithmes décisionnels et conception d'une simulation interactive en environnement 3D pour véhicules autonomes. J'ai documenté ce travail sous deux angles complémentaires : une démonstration technique de la simulation et une <strong>vidéo de vulgarisation scientifique</strong> expliquant la logique décisionnelle de l'IA à un public non expert (démonstration concrète de ma capacité de médiation et d'explicabilité).
                 </p>
                 
                 <div class="flex flex-col sm:flex-row gap-4">
-                    <a href="https://drive.google.com/file/d/19OOBl_LXob_5GgY3rU7NsPYF4qf5bQ1Z/view?usp=drive_link" target="_blank" class="flex items-center justify-center gap-2 bg-white border border-slate-200 text-slate-700 px-6 py-3 rounded-lg font-medium hover:border-brand-500 hover:text-brand-600 transition-all shadow-sm">
-                        <i class="fa-solid fa-code"></i> Démo Technique
+                    <a href="https://drive.google.com/file/d/19OOBl_LXob_5GgY3rU7NsPYF4qf5bQ1Z/view?usp=drive_link" target="_blank" class="flex items-center justify-center gap-2 bg-white border border-slate-300 text-slate-700 px-6 py-3 rounded-lg font-medium hover:border-brand-500 hover:text-brand-600 transition-all shadow-sm">
+                        <i class="fa-solid fa-code"></i> Voir la Démo Technique
                     </a>
                     <a href="https://drive.google.com/file/d/1hDNPmahcADqpczhDBJ9Ngp26kiv30iFF/view?usp=drive_link" target="_blank" class="flex items-center justify-center gap-2 bg-brand-600 text-white px-6 py-3 rounded-lg font-medium hover:bg-brand-500 transition-all shadow-md hover:shadow-lg">
-                        <i class="fa-solid fa-video"></i> Vidéo Vulgarisation
+                        <i class="fa-solid fa-video"></i> Regarder la Vidéo de Vulgarisation
                     </a>
+                </div>
+            </div>
+
+            <!-- Grille des 3 autres projets -->
+            <div class="grid md:grid-cols-3 gap-6">
+                
+                <!-- Projet 2 : Tactical Legend -->
+                <div class="bg-slate-50 rounded-2xl p-6 border border-slate-200 shadow-sm hover:shadow-md transition-shadow flex flex-col justify-between">
+                    <div>
+                        <div class="flex items-center justify-between mb-4">
+                            <div class="p-2.5 bg-brand-100 text-brand-600 rounded-lg">
+                                <i class="fa-solid fa-users-gear text-xl"></i>
+                            </div>
+                            <span class="text-xs font-semibold text-slate-400">Licence 3</span>
+                        </div>
+                        <h3 class="text-xl font-bold text-slate-800 mb-2">"Tactical Legend" : Simulation Multi-Agents</h3>
+                        <p class="text-slate-600 text-sm leading-relaxed mb-4">
+                            Développement d'un système multi-agents simulant des affrontements tactiques en équipe. Implémentation de comportements autonomes, de stratégies de groupe émergentes et d'un protocole de <strong>communication inter-agents</strong>.
+                        </p>
+                    </div>
+                    <div>
+                        <a href="LIEN_DRIVE_TACTICAL_LEGEND" target="_blank" class="mb-4 w-full flex items-center justify-center gap-2 bg-white border border-slate-300 text-slate-700 px-4 py-2 rounded-lg text-sm font-medium hover:border-brand-500 hover:text-brand-600 transition-all shadow-sm">
+                            <i class="fa-solid fa-play text-brand-600"></i> Aperçu de la simulation
+                        </a>
+                        <div class="flex flex-wrap gap-1.5 pt-4 border-t border-slate-200/60">
+                            <span class="bg-white text-slate-600 px-2.5 py-1 rounded text-xs font-medium border border-slate-200">Systèmes Multi-Agents</span>
+                            <span class="bg-white text-slate-600 px-2.5 py-1 rounded text-xs font-medium border border-slate-200">Coordination IA</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Projet 3 : Robot Autonome -->
+                <div class="bg-slate-50 rounded-2xl p-6 border border-slate-200 shadow-sm hover:shadow-md transition-shadow flex flex-col justify-between">
+                    <div>
+                        <div class="flex items-center justify-between mb-4">
+                            <div class="p-2.5 bg-brand-100 text-brand-600 rounded-lg">
+                                <i class="fa-solid fa-robot text-xl"></i>
+                            </div>
+                            <span class="text-xs font-semibold text-slate-400">Master 1</span>
+                        </div>
+                        <h3 class="text-xl font-bold text-slate-800 mb-2">Robotique Autonome & Prise de Décision</h3>
+                        <p class="text-slate-600 text-sm leading-relaxed mb-4">
+                            Conception et programmation d'un robot physique (Lego) capable de jouer au football de manière 100 % autonome : perception de l'environnement en temps réel, prise de décision dynamique (attaque/défense) sans aucun contrôle externe.
+                        </p>
+                    </div>
+                    <div>
+                        <a href="LIEN_DRIVE_ROBOT" target="_blank" class="mb-4 w-full flex items-center justify-center gap-2 bg-white border border-slate-300 text-slate-700 px-4 py-2 rounded-lg text-sm font-medium hover:border-brand-500 hover:text-brand-600 transition-all shadow-sm">
+                            <i class="fa-solid fa-play text-brand-600"></i> Voir le robot en action
+                        </a>
+                        <div class="flex flex-wrap gap-1.5 pt-4 border-t border-slate-200/60">
+                            <span class="bg-white text-slate-600 px-2.5 py-1 rounded text-xs font-medium border border-slate-200">IA Embarquée</span>
+                            <span class="bg-white text-slate-600 px-2.5 py-1 rounded text-xs font-medium border border-slate-200">Capteurs & Décision</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Projet 4 : Meetup -->
+                <div class="bg-slate-50 rounded-2xl p-6 border border-slate-200 shadow-sm hover:shadow-md transition-shadow flex flex-col justify-between">
+                    <div>
+                        <div class="flex items-center justify-between mb-4">
+                            <div class="p-2.5 bg-brand-100 text-brand-600 rounded-lg">
+                                <i class="fa-solid fa-calendar-check text-xl"></i>
+                            </div>
+                            <span class="text-xs font-semibold text-slate-400">Master 1</span>
+                        </div>
+                        <h3 class="text-xl font-bold text-slate-800 mb-2">Plateforme Collaborative "Meetup"</h3>
+                        <p class="text-slate-600 text-sm leading-relaxed mb-4">
+                            Conception et développement full-stack d'une application web d'organisation et de planification d'événements. Projet réalisé en méthodologie Agile au sein d'une équipe de 6 développeurs, avec une forte attention portée à l'expérience utilisateur (UI/UX).
+                        </p>
+                    </div>
+                    <div class="flex flex-wrap gap-1.5 pt-4 border-t border-slate-200/60">
+                        <span class="bg-white text-slate-600 px-2.5 py-1 rounded text-xs font-medium border border-slate-200">Full-Stack Web</span>
+                        <span class="bg-white text-slate-600 px-2.5 py-1 rounded text-xs font-medium border border-slate-200">Travail en équipe (Agile)</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Parcours & Médiation Section -->
+    <section id="experience" class="py-20 bg-slate-50">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold text-slate-900">Parcours, Médiation & Expériences</h2>
+                <div class="h-1 w-20 bg-brand-500 mx-auto mt-4 rounded-full"></div>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-6">
+                <div class="bg-white p-6 rounded-xl border border-slate-200 shadow-sm">
+                    <span class="text-xs font-bold text-brand-600 uppercase">Août 2026 • Médiathèque de Roanne</span>
+                    <h3 class="text-lg font-bold text-slate-800 mt-1">Médiation Culturelle & Recommandation</h3>
+                    <p class="text-sm text-slate-600 mt-3 leading-relaxed">
+                        Accueil, écoute et orientation personnalisée du public. Pratique directe de la <strong>recommandation ciblée d'œuvres musicales et littéraires</strong> en fonction de la sensibilité des visiteurs.
+                    </p>
+                </div>
+
+                <div class="bg-white p-6 rounded-xl border border-slate-200 shadow-sm">
+                    <span class="text-xs font-bold text-brand-600 uppercase">Mai – Juil. 2025 • KAIRIOS (Lyon)</span>
+                    <h3 class="text-lg font-bold text-slate-800 mt-1">Stage Développeur Informatique</h3>
+                    <p class="text-sm text-slate-600 mt-3 leading-relaxed">
+                        Développement de nouvelles fonctionnalités logicielles, résolution de bugs et participation active aux phases de tests et d'intégration au sein d'une équipe fonctionnant en méthode Agile.
+                    </p>
+                </div>
+
+                <div class="bg-white p-6 rounded-xl border border-slate-200 shadow-sm">
+                    <span class="text-xs font-bold text-brand-600 uppercase">Profil Personnel • Art & Psychologie</span>
+                    <h3 class="text-lg font-bold text-slate-800 mt-1">Sensibilité Artistique & Humaine</h3>
+                    <p class="text-sm text-slate-600 mt-3 leading-relaxed">
+                        Pratique musicale (piano, guitare) et forte culture des arts visuels (environnement familial de peintres). Intérêt marqué pour les mécanismes de développement personnel et de bien-être.
+                    </p>
                 </div>
             </div>
         </div>
@@ -193,7 +326,7 @@
         <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row justify-between items-center">
             <div class="mb-4 md:mb-0 text-center md:text-left">
                 <span class="text-xl font-bold text-white tracking-tight">Oscar Gibert</span>
-                <p class="text-sm text-slate-400 mt-1">Étudiant Master 2 IA - À la recherche d'un stage (5-6 mois)</p>
+                <p class="text-sm text-slate-400 mt-1">Master 2 IA (Université Lyon 1) — Disponible dès février 2027 (Stage 6 mois)</p>
             </div>
             <div class="flex space-x-6">
                 <a href="https://github.com/oscar-gibert" target="_blank" class="text-slate-400 hover:text-brand-400 text-2xl transition-colors"><i class="fa-brands fa-github"></i></a>
